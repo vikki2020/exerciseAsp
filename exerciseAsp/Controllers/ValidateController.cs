@@ -34,7 +34,7 @@ namespace exerciseAsp.Controllers
             sqlcomm.Parameters.AddWithValue("@UserRePassword", vc.RePassword);
 
             sqlcomm.ExecuteNonQuery();
-            ViewData["Message"] = "User Record Inserted Successfully";
+            ViewData["Message"] = "Registered Successfully, Please Login!";
             sqlconn.Close();
 
             return View();

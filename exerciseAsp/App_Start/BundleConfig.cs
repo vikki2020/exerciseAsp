@@ -21,13 +21,25 @@ namespace exerciseAsp
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
+            bundles.Add(new ScriptBundle("~/bundles/welcome").Include(
+                     "~/js/welcome/bootstrap.bundle.min.js",
+                     "~/js/welcome/custom.js",
+                     "~/js/welcome/jquery-3.0.0.min.js",
+                     "~/js/welcome/jquery.mCustomScrollbar.concat.min.js",
+                     "~/js/welcome/jquery.min.js",
+                    "~/js/welcome/popper.min.js",
+                    "~/js/welcome/jquery.validate.js"));
+          
+            
+            //"~/js/welcome/plugin.js"-->conflict,
+          
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"
+                      "~/Content/Site.css"
                      ));
             bundles.Add(new StyleBundle("~/Content/welcome").Include(
-                     "~/css/welcome/animate.min.css",
+                    
                      "~/css/welcome/bootstrap.min.css",
                      "~/css/welcome/jquery-ui.css",
                      "~/css/welcome/jquery.mCustomScrollbar.min.css",
@@ -38,6 +50,8 @@ namespace exerciseAsp
                      "~/css/welcome/responsive.css",
                      "~/css/welcome/slick.css",
                      "~/css/welcome/style.css"));
+
+            //"~/css/welcome/animate.min.css",
         }
     }
 }

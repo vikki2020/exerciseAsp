@@ -23,8 +23,8 @@
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
 * {
-     box-sizing: border-box !important;
-     transition: ease all 0.5s;
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
 }
 
 html {
@@ -62,8 +62,10 @@ h6 {
      position: relative;
      padding: 0 0 10px 0;
      font-weight: normal;
+     color:saddlebrown;
+     text-shadow:initial;
      line-height: normal;
-     color: #111111;
+/*     color: #111111;*/
      margin: 0
 }
 
@@ -131,7 +133,9 @@ p {
 }
 
 a {
-     color: #ffffff;
+    color:darkorange;
+     font-size:large;
+     font-weight:bold;
      text-decoration: none;
      outline: none !important;
 }

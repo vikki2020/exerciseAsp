@@ -44,7 +44,7 @@ namespace exerciseAsp.Controllers
 
             else
             {
-                ViewData["message"] = "Login details are not correct!";
+                ViewData["message"] = "Login details are not correct!Try it again!";
 
             }
 

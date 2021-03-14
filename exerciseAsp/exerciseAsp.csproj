@@ -154,6 +154,8 @@
     <Content Include="images\welcome\banner.jpg" />
     <Content Include="images\welcome\bulit-icon.png" />
     <Content Include="images\welcome\call-icon.png" />
+    <Content Include="images\welcome\footer-logo.png" />
+    <Content Include="images\welcome\logo.png" />
     <Content Include="images\welcome\dog-img.png" />
     <Content Include="images\welcome\email-icon.png" />
     <Content Include="images\welcome\email-img.jpg" />
@@ -162,7 +164,6 @@
     <Content Include="images\welcome\footer-img2.png" />
     <Content Include="images\welcome\footer-img3.png" />
     <Content Include="images\welcome\footer-img4.png" />
-    <Content Include="images\welcome\footer-logo.png" />
     <Content Include="images\welcome\gallery-img1.jpg" />
     <Content Include="images\welcome\gallery-img2.jpg" />
     <Content Include="images\welcome\gallery-img3.jpg" />
@@ -170,7 +171,6 @@
     <Content Include="images\welcome\gallery-img5.jpg" />
     <Content Include="images\welcome\google-icon.png" />
     <Content Include="images\welcome\linkedin-icon.png" />
-    <Content Include="images\welcome\logo.png" />
     <Content Include="images\welcome\map-icon.png" />
     <Content Include="images\welcome\search-icon.png" />
     <Content Include="images\welcome\twitter-icon.png" />
