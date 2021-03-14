@@ -24,7 +24,20 @@ namespace exerciseAsp
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css"
+                     ));
+            bundles.Add(new StyleBundle("~/Content/welcome").Include(
+                     "~/css/welcome/animate.min.css",
+                     "~/css/welcome/bootstrap.min.css",
+                     "~/css/welcome/jquery-ui.css",
+                     "~/css/welcome/jquery.mCustomScrollbar.min.css",
+                     "~/css/welcome/meanmenu.css",
+                     "~/css/welcome/nice-select.css",
+                     "~/css/welcome/normalize.css",
+                     "~/css/welcome/owl.carousel.min.css",
+                     "~/css/welcome/responsive.css",
+                     "~/css/welcome/slick.css",
+                     "~/css/welcome/style.css"));
         }
     }
 }

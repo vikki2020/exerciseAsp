@@ -9,28 +9,28 @@ namespace exerciseAsp.Models
     public class ValidateClass
     {
         [Required]
-        [Display(Name ="Enter User Name")]
+        [Display(Name ="User Name")]
         [StringLength(maximumLength:7,MinimumLength =3,ErrorMessage ="User name must have max length 7 and min length 3")]
         public string Username { get; set; }
 
         [Required]
-        [Display(Name ="Enter Age")]
+        [Display(Name ="Age")]
         [Range(18,100,ErrorMessage ="Age must be Between 18 and 100")]
         public int Age { get; set; }
 
         [Required]
-        [Display(Name ="Enter Email")]
+        [Display(Name ="Email")]
         [EmailAddress(ErrorMessage ="Enter The Proper Email Address!")]
         public string Email { get; set; }
 
         [Required]
-        [Display(Name ="Enter Password")]
+        [Display(Name ="Password")]
         [DataType(DataType.Password)]
         [RegularExpression("^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$", ErrorMessage ="Password Must Contain atleast 8 characters and must have 1 alphabet and 1 number")]
         public string Password { get; set; }
 
         [Required]
-        [Display(Name ="Ente password again")]
+        [Display(Name ="Confirm Password")]
         [DataType(DataType.Password)]
         [Compare("Password")]
         public string RePassword { get; set; }

@@ -121,10 +121,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UserLoginController.cs" />
     <Compile Include="Controllers\ValidateController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\LoginClass.cs" />
     <Compile Include="Models\ValidateClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -133,10 +135,53 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\welcome\animate.min.css" />
+    <Content Include="css\welcome\bootstrap.min.css" />
+    <Content Include="css\welcome\jquery-ui.css" />
+    <Content Include="css\welcome\jquery.mCustomScrollbar.min.css" />
+    <Content Include="css\welcome\meanmenu.css" />
+    <Content Include="css\welcome\nice-select.css" />
+    <Content Include="css\welcome\normalize.css" />
+    <Content Include="css\welcome\owl.carousel.min.css" />
+    <Content Include="css\welcome\responsive.css" />
+    <Content Include="css\welcome\slick.css" />
+    <Content Include="css\welcome\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\welcome\about-img.jpg" />
+    <Content Include="images\welcome\banner.jpg" />
+    <Content Include="images\welcome\bulit-icon.png" />
+    <Content Include="images\welcome\call-icon.png" />
+    <Content Include="images\welcome\dog-img.png" />
+    <Content Include="images\welcome\email-icon.png" />
+    <Content Include="images\welcome\email-img.jpg" />
+    <Content Include="images\welcome\fb-icon.png" />
+    <Content Include="images\welcome\footer-img1.png" />
+    <Content Include="images\welcome\footer-img2.png" />
+    <Content Include="images\welcome\footer-img3.png" />
+    <Content Include="images\welcome\footer-img4.png" />
+    <Content Include="images\welcome\footer-logo.png" />
+    <Content Include="images\welcome\gallery-img1.jpg" />
+    <Content Include="images\welcome\gallery-img2.jpg" />
+    <Content Include="images\welcome\gallery-img3.jpg" />
+    <Content Include="images\welcome\gallery-img4.jpg" />
+    <Content Include="images\welcome\gallery-img5.jpg" />
+    <Content Include="images\welcome\google-icon.png" />
+    <Content Include="images\welcome\linkedin-icon.png" />
+    <Content Include="images\welcome\logo.png" />
+    <Content Include="images\welcome\map-icon.png" />
+    <Content Include="images\welcome\search-icon.png" />
+    <Content Include="images\welcome\twitter-icon.png" />
+    <Content Include="js\welcome\bootstrap.bundle.min.js" />
+    <Content Include="js\welcome\custom.js" />
+    <Content Include="js\welcome\jquery-3.0.0.min.js" />
+    <Content Include="js\welcome\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="js\welcome\jquery.min.js" />
+    <Content Include="js\welcome\jquery.validate.js" />
+    <Content Include="js\welcome\plugin.js" />
+    <Content Include="js\welcome\popper.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -165,6 +210,8 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Validate\Index.cshtml" />
+    <Content Include="Views\UserLogin\Index.cshtml" />
+    <Content Include="Views\UserLogin\Welcome.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
